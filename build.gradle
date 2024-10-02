@@ -1,0 +1,5 @@
+android {
+    configurations {
+        all*.exclude group: 'org.codehaus.groovy', module: 'groovy-all'
+    }
+}
